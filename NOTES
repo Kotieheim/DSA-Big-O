@@ -1,0 +1,28 @@
+Big O notation
+ - way of describing time complexity of an algorithm.
+
+Time complexity
+ - number of operations an algorithm requires to complete.
+
+Space complexity
+ - amount of physical memory that an algorithm requires to complete.
+
+Linear relationship
+ - 
+
+Constant time - 0(1)
+ - the "Holy Grail", No matter the size of your input, the algorithm will take the same amount of time to complete. 
+
+Logarithmic time - O(log(n))
+ - Next best thing after Constant Time.if myLogRunTimeAlgo takes 1 second to complete with an input of size 10, when we increase our input by 10x to 100, the running time only grows to 2 seconds. When we increase the input size to 1000, the time only grows to 3 seconds.
+
+  - also cut problem size in half each round through.
+
+Linear time - O(n)
+ - Algorithms with linear time complexity (O(n)) have running times that are directly proportional to the size (n) of the input.
+
+Polynomial time O(n^k) n = input size, k = to the power of (k)
+ - An algorithm with polynomial time complexity has a running time that would be some input size "n" raised to some constant power "k". The easiest way to understand polynomial time complexity is with nested loops.
+
+Exponential time O(2^n)
+ - Algorithms with exponential time complexity (O(2^n)) have running times that grow rapidly with any increase in input size. For an input of size 2, an exponential time algorithm will take 2^2 = 4 time.
